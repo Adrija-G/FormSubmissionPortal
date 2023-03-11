@@ -28,4 +28,30 @@
               padding: 1%;
             }
         </style>
-        
+         <script>
+            function validateForm() {
+                // Get form inputs by their IDs
+                var fn = document.getElementById("fn").value;
+                var ln = document.getElementById("ln").value;
+                var email = document.getElementById("email").value;
+                var phno = document.getElementById("phno").value;
+
+                // Perform validation checks
+                if (fn == "" || ln == "") {
+                    alert("Please enter your full name.");
+                    return false;
+                }
+                if (email.indexOf("@") == -1 || email.indexOf(".") == -1) {
+                    alert("Please enter a valid email address.");
+                    return false;
+                }
+                if (phno.length < 10) {
+                    alert("Please enter a valid phone number.");
+                    return false;
+                }
+
+                // If all checks pass, return true to submit the form
+                return true;
+            }
+        </script>
+        </head>
