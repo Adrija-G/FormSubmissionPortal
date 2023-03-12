@@ -55,3 +55,66 @@
             }
         </script>
         </head>
+<body>
+    <div class="inp">
+    <h1>Submission form for students participating in the Annual Photography Competition 2023 <br>Fill out the form below!</h1>
+    <form method="post" action="submit.php">
+    <form method="post" action="submit.php" onsubmit="return validateForm()">
+                <!--Create Form--><p></p>
+            <label for="fn">First Name:&nbsp;</label>
+            <input type="text" id="fn" name="fn" placeholder="Enter first name" required> <p>
+
+            <label for="ln">Last Name: </label>&nbsp;
+            <input type="text" id="ln" name="ln" placeholder="Enter last name" required> <p>
+
+            <label for="dob">Date of Birth: &nbsp;</label>
+            <input type="date" id="dob" name="dob" required> <p>
+
+            <label for="email">Email: &nbsp;</label>
+            <input type="email" name="email" placeholder="Enter your email" /><p>
+
+            <label for="dsg">Choose your preferred designation:</label><br>
+            <input type="radio" name="dsg"> Mr.<br>
+            <input type="radio" name="dsg"> Mrs.<br>
+            <input type="radio" name="dsg"> Ms. <p>
+
+            <label for="ins">Name of Institute:&nbsp;</label>
+            <input type= "text" name="ins" id="ins" placeholder="Type something" required></p>
+
+            <label for="ins">Institute Address:&nbsp;</label>
+            <input type= "text" name="insa" id="insa" placeholder="Type something" required></p>
+
+            <label for="unirol">University Roll No.:&nbsp;</label>
+            <input type="text" name="roll" placeholder="Enter Roll No."></p>
+
+            <label for="phno">Enter your phone no.:&nbsp;</label>
+            <input type="tel" name="ph" placeholder=""><br></br>
+
+            <label for="pic">Upload your artwork: </label>&nbsp;
+            <input type="file" name="art" id="pic" multiple required></br> (Atmost 3 artworks can be uploaded per user in jpg/jpeg format.)<p>
+
+            <label for="theme" name="theme">Select Art theme: </label>&nbsp;
+            <select>
+                <option value="Abstract">Select</option>
+                <option value="Silhouette">Silhouette</option>
+                <option value="Identity">Identity</option>
+                <option value="Intergalactic">Intergalactic</option>
+                <option value="tss">The Setting Sun</option>
+                <option value="rt">Raging Tides</option>
+                <option value="Spirituality">Spirituality</option>
+                <option value="Ct">Changing Times</option>
+                <option value="ve">Victorian Era</option>
+                <option value="part">Poetry Art</option>
+                <option value="clk">Ticking Away</option>
+            </select><p>
+                <br><br><br><br>
+            <input type="checkbox" id="check" required>
+            <label for="check" name="agree">I hereby confirm that the entries made by me, are original & my own.<br>
+                I understand that submitting plagiarised work will count towards subsequent elimination from the competition.</label>
+        <br></p></p></p></p><br>
+        <div class="sub">
+            <input type="submit" name="submit" value="Submit Form" class="submit-btn">
+        </div>
+    </div>
+</body>
+</html>
