@@ -1,3 +1,3 @@
 # GoogleForm_Clone
 
-This needs more improvisations and I will be adding them over time, whenever possible <3
+The code needs more improvisations, more Js, and I will be adding new features over time, whenever possible.
