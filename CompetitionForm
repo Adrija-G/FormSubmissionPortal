@@ -1,33 +1,8 @@
 <html>
     <title>Submission Form</title>
     <head>
-        <style>
-            body
-            {
-                background-color: #CBC3E3;
-
-            }
-            .inp
-            {
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                text-align: center;
-                width: 50%;
-                background-color:whitesmoke;
-                border-top: #80108f 50px solid;
-                margin-left: 400px;
-                border-left: #80108f 4px solid;
-                border-right: #80108f 4px solid;
-                border-bottom: #80108f 10px solid;
-            }
-            input[type="submit"]
-            {
-
-              background-color: #80108f;
-              font-size: 17px;
-              color: white;
-              padding: 1%;
-            }
-        </style>
+        <meta name="viewport" content="width= device-width", initial-scale="1">
+        <link rel="stylesheet" href="style.css">
          <script>
             function validateForm() {
                 // Get form inputs by their IDs
