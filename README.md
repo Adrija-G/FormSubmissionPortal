@@ -3,6 +3,7 @@
 ![Photography Competition](https://img.shields.io/badge/Photography%20Competition-2023-blue)
 
 ► This is a web-based submission form designed for students participating in the Annual Photography Competition 2023. 
+
 ► The form aims to collect essential information from participants and their artwork submissions.
 
 ## Features
