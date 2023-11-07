@@ -1,4 +1,4 @@
-# Submission Form for Annual Photography Competition 2023
+# [Submission Form for Annual Photography Competition 2023](https://github.com/Adrija-G/FormSubmissionPortal/blob/main/CompetitionForm)
 
 ![Photography Competition](https://img.shields.io/badge/Photography%20Competition-2023-blue)
 
